@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: font-1;
+  src: url(../fonts/Allura-Regular.ttf);
+}
+
+@font-face {
+  font-family: font-2;
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: font-3;
+  src: url(../fonts/Roboto-Light.ttf);
+}
+
+$color-1: #fff;
+$color-2: #000;
+$color-3: #a47245;
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  // height: 1500px;
+}
+
+body li {
+  list-style: none;
+}
+
+body a {
+  text-decoration: none;
+}
