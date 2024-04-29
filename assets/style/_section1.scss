@@ -1,0 +1,66 @@
+.section1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  .section1-div1 {
+    display: grid;
+    width: 95%;
+    height: 430px;
+    border: 1px dashed $color-3;
+    margin: 20px auto;
+    justify-items: center;
+
+    h3 {
+      display: grid;
+      justify-items: center;
+    }
+
+    span:first-child {
+      color: $color-3;
+      font-family: "font-1", sans-serif;
+      font-size: 2rem;
+      font-weight: light;
+      position: relative;
+      top: 20px;
+    }
+
+    span:last-child {
+      font-family: "font-2", sans-serif;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    p {
+      font-family: "font-3", sans-serif;
+      text-align: center;
+      color: $color-5;
+    }
+
+    #div1-img1 {
+      margin: 15px auto;
+    }
+
+    #div1-img2 {
+      border-radius: 50%;
+      width: auto;
+      height: 70px;
+    }
+
+    #nom-chef1 {
+      font-family: "font-2", sans-serif;
+      color: $color-2;
+    }
+
+    #poste-chef1 {
+      text-transform: uppercase;
+      position: relative;
+      bottom: 17px;
+      font-size: 0.75rem;
+      color: $color-5;
+    }
+  }
+
+  .section1-div2 {
+    background: url(../img/store-01.jpg) center/cover;
+  }
+}

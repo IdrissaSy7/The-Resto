@@ -23,6 +23,9 @@
 $color-1: #fff;
 $color-2: #000;
 $color-3: #a47245;
+$color-4: #eee;
+$color-5: #7f8183;
+$color-6: #21201e;
 
 @mixin center {
   display: flex;
@@ -31,7 +34,7 @@ $color-3: #a47245;
 }
 
 body {
-  // height: 1500px;
+  background: $color-4;
 }
 
 body li {

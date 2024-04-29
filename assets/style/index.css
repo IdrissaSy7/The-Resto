@@ -17,6 +17,10 @@
   font-family: font-3;
   src: url(../fonts/Roboto-Light.ttf);
 }
+body {
+  background: #eee;
+}
+
 body li {
   list-style: none;
 }
@@ -54,6 +58,10 @@ header nav ul li {
   display: flex;
   text-transform: uppercase;
   font-size: 0.8rem;
+}
+header nav ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 header nav div {
   display: flex;
@@ -100,4 +108,162 @@ header .headerContent p {
   letter-spacing: 5px;
   text-transform: uppercase;
   font-size: 0.8rem;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.section1 .section1-div1 {
+  display: grid;
+  width: 95%;
+  height: 430px;
+  border: 1px dashed #a47245;
+  margin: 20px auto;
+  justify-items: center;
+}
+.section1 .section1-div1 h3 {
+  display: grid;
+  justify-items: center;
+}
+.section1 .section1-div1 span:first-child {
+  color: #a47245;
+  font-family: "font-1", sans-serif;
+  font-size: 2rem;
+  font-weight: light;
+  position: relative;
+  top: 20px;
+}
+.section1 .section1-div1 span:last-child {
+  font-family: "font-2", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.section1 .section1-div1 p {
+  font-family: "font-3", sans-serif;
+  text-align: center;
+  color: #7f8183;
+}
+.section1 .section1-div1 #div1-img1 {
+  margin: 15px auto;
+}
+.section1 .section1-div1 #div1-img2 {
+  border-radius: 50%;
+  width: auto;
+  height: 70px;
+}
+.section1 .section1-div1 #nom-chef1 {
+  font-family: "font-2", sans-serif;
+  color: #000;
+}
+.section1 .section1-div1 #poste-chef1 {
+  text-transform: uppercase;
+  position: relative;
+  bottom: 17px;
+  font-size: 0.75rem;
+  color: #7f8183;
+}
+.section1 .section1-div2 {
+  background: url(../img/store-01.jpg) center/cover;
+}
+
+.section2 {
+  background: #21201e;
+  position: relative;
+}
+.section2 .section2-div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+}
+.section2 .section2-div1 h3 {
+  color: #a47245;
+  font-family: "font-1", sans-serif;
+  font-size: 2rem;
+  font-weight: light;
+  margin: 30px auto 0;
+}
+.section2 .section2-div1 img {
+  margin: 30px auto;
+}
+.section2 .section2-div1 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 45%;
+}
+.section2 .section2-div1 ul li {
+  position: relative;
+  color: #fff;
+  font-family: "font-3", sans-serif;
+}
+.section2 .section2-div1 ul li::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  top: 25px;
+  left: 0;
+}
+.section2 .section2-div2 {
+  background: #eee;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 60%;
+  height: 570px;
+  margin: 0 auto;
+  position: relative;
+  top: -120px;
+  z-index: 1;
+}
+.section2 .section2-div2::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: #a47245;
+}
+.section2 .section2-div2 .section2-div2-div1 {
+  display: grid;
+  grid-template-columns: 25% 60% 10%;
+  width: 100%;
+  align-items: center;
+  margin: 30px 20px;
+  position: relative;
+}
+.section2 .section2-div2 .section2-div2-div1::after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  top: 100px;
+  left: 0;
+  border-bottom: 1px dotted #7f8183;
+}
+.section2 .section2-div2 .section2-div2-div1 img {
+  width: auto;
+  height: 75px;
+  border-radius: 50%;
+}
+.section2 .section2-div2 .section2-div2-div1 div {
+  font-family: "font-3", sans-serif;
+}
+.section2 .section2-div2 .section2-div2-div1 div h4 {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.section2 .section2-div2 .section2-div2-div1 div p {
+  color: #7f8183;
+}
+.section2 .section2-div2 .section2-div2-div1 .price {
+  color: #a47245;
+  font-family: "font-2", sans-serif;
+}
+.section2 .section2-div3 {
+  background: url(../img/bg-menu-01.jpg) center/cover;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 340px;
 }/*# sourceMappingURL=index.css.map */
