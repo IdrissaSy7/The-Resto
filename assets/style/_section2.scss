@@ -1,5 +1,4 @@
 .section2 {
-  background: $color-6;
   position: relative;
 
   .section2-div1 {
@@ -68,7 +67,7 @@
       grid-template-columns: 25% 60% 10%;
       width: 100%;
       align-items: center;
-      margin: 30px 20px;
+      margin: 30px 10px;
       position: relative;
 
       &::after {
